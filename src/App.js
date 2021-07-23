@@ -1,16 +1,16 @@
-import { Col, Row } from 'antd';
 import './App.css';
+import Mobile from './components/Mobile';
 
 function App() {
   return (
     <div className="App">
-      <Row>
-        <Col/>
-        <Col>Hello, World!</Col>
-        <Col/>
-      </Row>
+      <Mobile/>
+      <style>
+         @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
+      </style> 
     </div>
   );
 }
 
-export default App;
+
+export default App; 

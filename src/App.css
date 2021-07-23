@@ -1,4 +1,10 @@
 .App {
-  text-align: center;
+  background-image: linear-gradient(#af68ea, #6462e7);
+  height: 100vh;
+  width: 100vw;
+  color: hsl(238, 29%, 16%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 12px;
+  position: fixed;
 }
 
