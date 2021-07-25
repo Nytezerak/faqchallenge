@@ -2,6 +2,7 @@ import React from 'react';
 import { Row, Col } from 'antd';
 import './Mobile.css';
 import ImgMobile from './ImgMobile';
+import FaqItens from './FaqItens';
 
 function Mobile () {
     return(
@@ -10,7 +11,7 @@ function Mobile () {
             <Col span={20}>
                 <ImgMobile/>
                 <Row className="card">
-                
+                    <FaqItens/>
                 </Row>
             </Col>
             <Col span={2}/>

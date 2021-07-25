@@ -1,0 +1,23 @@
+.faqTitle{
+    font-size: 40px;
+    padding-top: 100px;
+    font-weight: 900;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0 auto;
+    margin-bottom: -60px;
+}
+
+.faqBody{
+    width: 100%;
+}
+
+.faqBody--component:active{
+font-weight: bold;
+}
+
+.faqBody--collapse{
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: white;
+    width: 90%;
+}
