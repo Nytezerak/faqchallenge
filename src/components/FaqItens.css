@@ -1,6 +1,6 @@
 .faqTitle{
     font-size: 40px;
-    padding-top: 70px;
+    padding-top: 90px;
     font-weight: 900;
     font-family: 'Kumbh Sans', sans-serif;
     margin: 0 auto;
@@ -24,4 +24,9 @@ font-weight: bold;
 
 .faqBody--componentItem{
     font-weight: normal;
+    font-size: 12px;
+}
+
+.collapseIcon{
+    color: hsl(14, 88%, 65%);
 }

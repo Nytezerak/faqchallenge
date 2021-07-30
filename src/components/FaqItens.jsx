@@ -1,27 +1,28 @@
 import { Col, Collapse, Row } from 'antd';
 import React, { useState } from 'react';
+import { UpOutlined } from '@ant-design/icons';
 import './FaqItens.css'
 
 const { Panel } = Collapse;
 
 const text1 = `
-  aaaaa
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 `;
 
 const text2 = `
-  bbbb
+  No more than 2GB. All files in your account must fit your allotted storage space
 `;
 
 const text3 = `
-  cccc
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 `;
 
 const text4 = `
-  dddd
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 `;
 
 const text5 = `
-  ffff
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 `;
 
 function FaqItens () {
@@ -39,6 +40,7 @@ function FaqItens () {
                       onChange={(arg)=>{
                         setOpenItem(arg)
                       }}
+                      expandIcon={({ isActive }) => <UpOutlined className="collapseIcon" rotate={isActive ? 0 : -180} />}
                       >
                 <Panel className={openItem==='1'? 'faqBody--component active':'faqBody--component'} header="How many team members can I invite?" key="1">
                 <p className='faqBody--componentItem'>{text1}</p>
