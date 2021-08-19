@@ -6,7 +6,8 @@ import './FaqItens.css'
 const { Panel } = Collapse;
 
 const text1 = `
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  You can invite up to 2 additional users on the Free plan. There is no limit on 
+  team members for the Premium plan.
 `;
 
 const text2 = `
@@ -14,22 +15,23 @@ const text2 = `
 `;
 
 const text3 = `
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Click “Forgot password” from the login page or “Change password” from your profile page.
+  A reset link will be emailed to you.
 `;
 
 const text4 = `
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Yes! Send us a message and we’ll process your request no questions asked.
 `;
 
 const text5 = `
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Chat and email support is available 24/7. Phone lines are open during normal business hours.
 `;
 
 function FaqItens () {
   const [openItem, setOpenItem] = useState()
     return(
-    <Row>
-        <Row className='faqTitle'>
+    <Row className="antRowFaq">
+        <Row className={openItem>='1'? 'faqTitle active':'faqTitle'}>
             <Col span={24}>FAQ</Col>
         </Row>
 

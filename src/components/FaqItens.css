@@ -1,19 +1,22 @@
 .faqTitle{
+    transition: 500ms;
     font-size: 40px;
-    padding-top: 90px;
+    padding-top: 70px;
     font-weight: 900;
     font-family: 'Kumbh Sans', sans-serif;
-    margin: 0 auto;
-    margin-bottom: -30px;
+    margin: -15px auto;
+    opacity: 100%;
 }
 
 .faqBody{
     width: 100%;
+    margin-top: -14px;
 }
 
 .faqBody--component.active{
-font-weight: bold;
+    font-weight: bold;
 }
+
 
 .faqBody--collapse{
     margin: 0 auto;
@@ -29,4 +32,22 @@ font-weight: bold;
 
 .collapseIcon{
     color: hsl(14, 88%, 65%);
+}
+
+.antRowFaq{
+    width: 100%;
+}
+
+@media screen and (max-height: 704px) {
+    .faqBody{
+        margin-top: -15%;
+    }   
+    .attribution{
+        font-size: 9px;
+    }
+
+    .faqTitle.active{
+        transition: 500ms;
+        opacity: 25%;
+    }
 }

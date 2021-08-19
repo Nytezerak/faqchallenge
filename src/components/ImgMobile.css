@@ -1,20 +1,24 @@
+.rowIlustracao{
+    justify-content: center;
+}
+
 .ilustracaoFaq{
-    position: absolute ;
-    margin-top: 90%;
-    width: 100%;
+    position: absolute;
+    margin-top: 280px;
+    width: 300px;
     z-index: 2;
 }
 
 .ilustracao{
     width: 90%;
 }
+
 .sombraFaq{
     position: relative;
-    
     z-index: 1;
 }
 
 .sombra{
     width: 80%;
-    margin: -35% auto auto 10%;
+    margin: -110px 0 0 10%;
 }

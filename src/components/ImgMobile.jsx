@@ -6,7 +6,7 @@ import ilustracaoSombra from '../images/bg-pattern-mobile.svg'
 
 function ImgMobile () {
 return(
-    <Row align="middle">
+    <Row className="rowIlustracao" align="middle">
         <Col className="ilustracaoFaq">
                 <img className="ilustracao" src={ilustracaoMobile} alt="Garota vendo tela de FAQ"/>
                 
