@@ -1,0 +1,32 @@
+.ilustrationFaqDesktop{
+    position: absolute;
+    margin: -40% 0 0 -18%;
+    width: 110%;
+    z-index: 1;
+}
+
+.ilustrationDesktopImg{
+    width: 100%;
+    z-index: 1;
+}
+
+.ilustrationShadowFaqDesktop{
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+.ilustrationDesktopShadow{
+    margin-top: -150%;
+    margin-left: -100%;
+    width: 200%;
+    z-index: 0;
+}
+
+.ilustrationDesktopBox{
+    position: absolute;
+    z-index: 4;
+    margin-left: -30%;
+    margin-top: -10%;
+    width: 45%;
+}

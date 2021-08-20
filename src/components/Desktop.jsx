@@ -1,11 +1,13 @@
-import { Col, Row } from 'antd';
+import { Row } from 'antd';
 import React from 'react';
 import './Desktop.css';
+import DesktopBody from './DesktopBody';
 
 function Desktop () {
     return(
-        <Row className="desktopApp">
-            <Col></Col>
+        <Row id="desktopApp">
+            <div className='sideGradient'/>
+            <DesktopBody/>
         </Row>
     );
 }

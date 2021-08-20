@@ -8,10 +8,10 @@ function ImgMobile () {
 return(
     <Row className="rowIlustracao" align="middle">
         <Col className="ilustracaoFaq">
-                <img className="ilustracao" src={ilustracaoMobile} alt="Garota vendo tela de FAQ"/>
+                <img className="ilustracao" src={ilustracaoMobile} alt=""/>
                 
             <Col className="sombraFaq">
-                <img className="sombra" src={ilustracaoSombra} alt="Sombra da ilustração"/>
+                <img className="sombra" src={ilustracaoSombra} alt=""/>
             </Col>
         </Col>
     </Row>

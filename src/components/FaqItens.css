@@ -17,11 +17,17 @@
     font-weight: bold;
 }
 
+.line{
+    height: 1px;
+    background-color: hsl(238, 29%, 16%);
+    opacity: 0.2;
+    width: 96%;
+    margin-left: 4%;
+}
 
 .faqBody--collapse{
     margin: 0 auto;
     border-radius: 20px;
-    background-color: white;
     width: 90%;
 }
 
@@ -41,13 +47,15 @@
 @media screen and (max-height: 704px) {
     .faqBody{
         margin-top: -15%;
+
     }   
-    .attribution{
-        font-size: 9px;
-    }
 
     .faqTitle.active{
         transition: 500ms;
         opacity: 25%;
+    }
+
+    .faqBody--component:hover{
+        color: hsl(14, 88%, 65%);
     }
 }
