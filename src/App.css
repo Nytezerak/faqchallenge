@@ -17,3 +17,8 @@
   color: hsl(228, 45%, 44%); 
 }
 
+@media screen and (min-width: 667px) {
+  .attribution { 
+    margin-top: 2%;
+  }
+}

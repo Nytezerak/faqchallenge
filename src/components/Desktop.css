@@ -1,10 +1,10 @@
 @media screen and (min-width: 667px) {
     #desktopApp{
-        height: 80vh;
+        height: 70vh;
         width: 70vw;
         border-radius: 15px;
         background-color: white;
-        margin: 10vh auto 0 auto;
+        margin: 15vh auto 0 auto;
         max-width: 1000px;
         box-shadow: 0 2em 3em -1.8em;
     }
@@ -26,7 +26,7 @@
     .antRowFaq{
         width: 80%;
         min-width: 400px;
-        margin-top: -15%;
+        margin-top: -20%;
     }
 
     .antRowFaq{
@@ -34,15 +34,16 @@
     }
 
     .faqTitle{
-        padding-top: 0;
-        margin: -30% 8%;
+        margin: -35% 8%;
+    }
 
+    .ant-collapse-header:not(.ant-collapse-item-active *):hover{
+        color: hsl(14, 88%, 65%) !important;
+        cursor: url(http://www.rw-designer.com/cursor-extern.php?id=83289), auto;
     }
 
     .faqBody{
-        padding-top: 5%;
         position: relative;
-        
     }
 
     .faqTitle.active{

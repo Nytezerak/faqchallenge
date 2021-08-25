@@ -11,9 +11,7 @@ function DesktopImg() {
         <div>
             <div className='ilustrationFaqDesktop'>
                 <img className='ilustrationDesktopImg' src={DesktopIllustration} alt=""/>
-                <div className='ilustrationShadowFaqDesktop' >
-                    <img className='ilustrationDesktopShadow' src={DesktopShadowIllustration} alt=""/>                    
-                </div>
+                <img className='ilustrationDesktopShadow' src={DesktopShadowIllustration} alt=""/>
             </div>
             <img className='ilustrationDesktopBox' src={BoxIllustration} alt=""/>
         </div>

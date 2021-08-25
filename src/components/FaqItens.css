@@ -25,10 +25,15 @@
     margin-left: 4%;
 }
 
+.ant-collapse-arrow{
+    color: hsl(14, 88%, 65%);
+}
+
 .faqBody--collapse{
     margin: 0 auto;
     border-radius: 20px;
     width: 90%;
+
 }
 
 .faqBody--componentItem{
@@ -36,26 +41,14 @@
     font-size: 12px;
 }
 
-.collapseIcon{
-    color: hsl(14, 88%, 65%);
-}
-
 .antRowFaq{
     width: 100%;
 }
 
 @media screen and (max-height: 704px) {
-    .faqBody{
-        margin-top: -15%;
-
-    }   
-
     .faqTitle.active{
         transition: 500ms;
         opacity: 25%;
     }
 
-    .faqBody--component:hover{
-        color: hsl(14, 88%, 65%);
-    }
 }
