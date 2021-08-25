@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Nytezerak/faq_challenge/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [FaqChallenge](https://github.com/Nytezerak/faq_challenge/)
+- Live Site URL: [Will be added soon](https://your-live-site-url.com)
 
 ## My process
 
