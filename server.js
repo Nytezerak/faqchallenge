@@ -1,10 +1,13 @@
 const express = require('express');
-const {} = require('path');
+const { resolve } = require('path');
 const app = express();
 
 app.use('/',
 express.static(
-    './build'
+        resolve(
+            __dirname,
+            './build'
+        )
     )
 )
 

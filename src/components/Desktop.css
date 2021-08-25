@@ -45,10 +45,4 @@
     .faqBody{
         position: relative;
     }
-
-    .faqTitle.active{
-        transition: 0;
-        opacity: 1;
-    }
-
 }

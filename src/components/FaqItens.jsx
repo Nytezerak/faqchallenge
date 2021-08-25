@@ -31,7 +31,7 @@ function FaqItens () {
   const [openItem, setOpenItem] = useState()
     return(
     <Row className="antRowFaq">
-        <Row className={openItem>='1'? 'faqTitle active':'faqTitle'}>
+        <Row className='faqTitle'>
             <Col span={24}>FAQ</Col>
         </Row>
 

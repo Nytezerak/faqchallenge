@@ -44,11 +44,3 @@
 .antRowFaq{
     width: 100%;
 }
-
-@media screen and (max-height: 704px) {
-    .faqTitle.active{
-        transition: 500ms;
-        opacity: 25%;
-    }
-
-}
