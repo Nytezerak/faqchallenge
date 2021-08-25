@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+faqchallenge.github.io
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Frontend Mentor - FAQ accordion card solution
 
-## Available Scripts
+This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-In the project directory, you can run:
+## Table of contents
 
-### `npm start`
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Overview
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### The challenge
 
-### `npm test`
+Users should be able to:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- View the optimal layout for the component depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Hide/Show the answer to a question when the question is clicked
 
-### `npm run build`
+### Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://user-images.githubusercontent.com/60710331/130725036-4bae507b-9c20-4516-848b-f7b99151b2d7.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Links
 
-### `npm run eject`
+- Solution URL: [FaqChallenge](https://github.com/Nytezerak/faq_challenge/)
+- Live Site URL: [Will be added soon](https://your-live-site-url.com)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## My process
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Built with
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Semantic HTML5 markup
+- CSS custom properties
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
 
-## Learn More
+### What I learned
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-CSS can be very tricky, learning him is like a walk in the park on an dangerous neighborhood, it's cool but one fake step can cause chaos.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-Just abused from position
+```
+.ilustrationFaqDesktop{
+    position: absolute;
+    margin: -40% 0 0 -18%;
+    width: 110%;
+    z-index: 1;
+}
 
-### Code Splitting
+.ilustrationDesktopImg{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+.ilustrationShadowFaqDesktop{
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
 
-### Analyzing the Bundle Size
+.ilustrationDesktopShadow{
+    margin-top: -75%;
+    margin-left: -100%;
+    width: 200%;
+    z-index: 0;
+}
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+.ilustrationDesktopBox{
+    position: absolute;
+    z-index: 4;
+    margin-left: -30%;
+    margin-top: -10%;
+    width: 45%;
+}
+```
+-It was good to learn each function of fixed, absolute and relative.
 
-### Making a Progressive Web App
+### Continued development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- With future aknowledge I hope to find a better way to the ".sideGradient", at this point it looked fine but it can be better.
 
-### Advanced Configuration
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Frontend Mentor - [@Nytezerak](https://www.frontendmentor.io/profile/Nytezerak)
+- Instagram - [@Nytezeraj](https://www.instagram.com/nytezerak)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Acknowledgments
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Special thanks to my mentor FizzyDrinks, who always help me with any doubt 🥇 (https://github.com/fizzy-drinks)
